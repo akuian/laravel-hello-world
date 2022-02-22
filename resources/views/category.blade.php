@@ -11,9 +11,10 @@
 
 <body>
     <h1 id="element"></h1>
-    <a href="{{ url('category/') }}">Some Text</a>
-    <input class="btn btn-primary" type="submit" value="Submit">
-    <input class="btn btn-primary" type="reset" value="Reset">
+    <a href="{{ url('category/marbel-edu-games') }}" class=" btn btn-primary" type="submit">Marbel edu games</a>
+    <a href="{{ url('category/marbel-and-friends-kids-games') }}" class=" btn btn-primary" type="submit">Marbel and friend kid games</a>
+    <a href="{{ url('category/riri-story-books') }}" class=" btn btn-primary" type="submit">Riri story books</a>
+    <a href="{{ url('category/kolak-kids-songs') }}" class=" btn btn-primary" type="submit">kolak kid songs</a>
 </body>
 
 </html>
